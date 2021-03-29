@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* =========Commos Css END */
+
+
+/* =========================  Topheader CSS Start ========================= */
+
+header {
+    background-color: #0f2f44;
+}
+
+header .left {
+    text-align: left;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+header .right {
+    text-align: right;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+/* =========================  Topheader CSS END ========================= */
+
+
+/* =========================  NAV CSS END ========================= */
+
+
+nav ul li {
+    display: block;
+    margin-right: 15px;
+    padding: 27px 12px;
+    transition: .3s;
+}
+
+nav ul li a {
+    color: black;
+    transition: .3s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li:hover {
+
+    background-color: #ffc1074f;
+}
+
+nav ul li:hover a {
+    color: #ffc107;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.tittle {
+
+    text-align: center;
+}
+
+.tittle h5 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+}
+
+.tittle h3 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    color: #0f2f44;
+}
+
+/* =========================  NAV CSS END ========================= */
+
+
+/* =========================  banner CSS END ========================= */
+
+
+#banner {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    /* height: 500px; */
+    padding: 140px 0;
+}
+
+
+#banner h3 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: -16px;
+}
+
+#banner h4 {
+    color: #aab0d8;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 17px;
+    margin-bottom: 10px;
+}
+
+#banner p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+#banner .explor {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background: #8484bf;
+    border: 1px #8484bf solid;
+    padding: 13px 18px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#banner .explor:hover {
+    background: white;
+    color: #8484bf;
+}
+
+#banner a i {
+    font-size: 20px;
+    color: #8484bf;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 40px;
+    transition: .4s;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#banner a i:hover {
+    color: white;
+    background: #8484bf;
+}
+
+/* =========================  banner CSS END ========================= */
+
+
+/* =========================  banner CSS END ========================= */
+
+#about {
+    padding: 100px 0;
+}
+
+#about .tittle {
+    text-align: left;
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+    width: 570px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#about ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+#about ul {
+    margin-bottom: 50px;
+}
+
+#about .know {
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 20px;
+    box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: .8s;
+    border-radius: 5px;
+}
+
+#about .know:hover {
+    /* color: white; */
+    background: #ffc107;
+
+}
+
+#about .read {
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: .8s;
+    border-radius: 5px;
+}
+
+#about .read:hover {
+    /* color: white; */
+    background: #ffc107;
+
+}
+
+/* =========================  banner CSS END ========================= */
+
+
+/* =========================  skills CSS END ========================= */
+
+#skills {
+    background: url(../image/skill-background\ 2.png) no-repeat left;
+    background-size: cover;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+#skills .tittle {
+    text-align: right;
+}
+
+#skills .tittle p {
+    width: 540px;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0f2f44;
+    padding-bottom: 30px;
+
+}
+
+#skills .pbar {
+    padding-right: 60px;
+    margin-top: -5px;
+    position: relative;
+}
+
+#skills .pbar h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#skills .pbar img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* =========================  skills CSS END ========================= */
+
+/* =========================  Service CSS start ========================= */
+
+#service {
+    background: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#service .tittle {
+    margin-bottom: 40px;
+}
+
+#service .item {
+    display: flex;
+    margin: 0 15px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+#service .item .img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d6d6d6;
+
+}
+
+#service .item .text {
+    width: 70%;
+    background: #e4e4e4;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+#service .item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#service .item .text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#service .item .overlay {
+    width: 0;
+    height: 100%;
+    background-color: #0f2f44;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#service .item .overlay h4 {
+    color: #fff;
+}
+
+
+#service .item .overlay img {
+    width: 80px;
+}
+
+#service .item .overlay a i {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #0e0e0e;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.14);
+    transition: .3s;
+}
+
+#service .item .overlay a i:hover {
+    background: #ffc712;
+    color: #fff;
+}
+
+#service .item:hover .overlay {
+    width: 100%;
+    opacity: 1;
+}
+
+/* =========================  Service CSS END ========================= */
+
+
+/* =========================  Service CSS END ========================= */
+#portfolio {
+    padding: 60px 0;
+}
+
+#portfolio .tittle {
+    margin-bottom: 40px;
+}
+
+#portfolio .item {
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio .item .img img {
+    width: 100%;
+}
+
+#portfolio .item .overlay {
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    text-align: center;
+    padding: 15px 0;
+    opacity: 0;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -50px;
+}
+
+#portfolio .item:hover .overlay {
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+.co-button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.browse {
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 20px;
+    box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.browse:hover {
+    color: white;
+    background: #ffc107;
+}
+
+/* =========================  Service CSS END ========================= */
+
+
+/* =========================  testimonial CSS END ========================= */
+#testimonial {
+    background: #f5f5f5;
+    padding: 55px 0;
+}
+
+#testimonial .tittle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#testimonial .item {
+    display: flex;
+    margin: 0 20px;
+}
+
+#testimonial .details {
+    padding: 12px;
+    background: #e9e9e9;
+    box-sizing: border-box;
+}
+
+
+#testimonial .details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #0f2f44;
+    padding-top: 15px;
+    /* padding-bottom: 25px; */
+}
+
+#testimonial .details h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    padding-top: 28px;
+}
+
+#testimonial .details h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+/* =========================  testimonial CSS END ========================= */
+
+
+/* =========================  testimonial CSS END ========================= */
+
+#blog {
+    padding: 60px 0;
+}
+
+#blog .tittle {
+    margin-bottom: 40px;
+}
+
+#blog .item {
+    background: #f5f5f5;
+    margin: 0 15px;
+    padding: 20px;
+    float: left;
+    transition: .8s;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#blog .item img {
+    width: 100%;
+}
+
+#blog .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+    padding-top: 20px;
+}
+
+#blog .item h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+#blog .item a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #777777;
+    text-transform: capitalize;
+}
+
+#blog .item:hover {
+    background: #0F2F44;
+    color: #ffffff !important;
+}
+
+#blog .item:hover h4 {
+    color: #ffffff;
+}
+
+#blog .item:hover a {
+    color: #ffffff;
+}
+
+#blog .item:hover p {
+    color: #ffffff;
+}
+
+#blog a {
+    text-align: center;
+}
+
+/* ===#======================  testimonial CSS END ========================= */
+
+
+/* ===#======================  testimonial CSS END ========================= */
+
+footer {
+    background: #f5f5f5;
+    box-shadow: 0px -4px 39px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+footer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+footer .logo {
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+footer .logo p {
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500
+}
+
+footer .logo i {
+    width: 40px;
+    height: 40px;
+    color: #0F2F44;
+    border: 1px solid #0f2f44;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: .6s;
+    margin-right: 10px;
+}
+
+footer .logo i:hover {
+    background-color: #0F2F44;
+    color: white;
+}
+
+footer .contact {
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+
+footer .contact .item {
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+footer .contact .item i {
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    /* margin-right: 20px; */
+}
+
+footer .contact .item .adr {
+    width: 170px;
+}
+
+footer .contact .item .no {
+    width: 115px;
+    /* padding-right: 115px; */
+}
+
+footer .links {
+    margin-left: 10px;
+    box-sizing: border-box;
+
+}
+
+footer .links ul li a {
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+
+footer .links ul li a:hover {
+    padding-left: 20px;
+    color: #646464;
+
+}
+
+
+footer .filcker .gallery ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer .footer-btm {
+    padding: 15px 0;
+    background: #e1e1e1;
+    margin-top: 50px;
+}
+
+footer .footer-btm ul {
+    text-align: center;
+
+}
+
+footer .footer-btm ul li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin-right: 14px;
+    padding-right: 13px;
+    border-right: 1px solid #777777;
+}
+
+footer .footer-btm ul li:last-child {
+    border-right: 0;
+}
+
+footer .footer-btm span {
+    color: #fcc512;
+}
+
+/* ===#======================  testimonial CSS END ========================= */
